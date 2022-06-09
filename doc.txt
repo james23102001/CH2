@@ -1,0 +1,19 @@
+		******************************************************************************
+		***************************** Projet : CH2 ***********************************
+		********************* Createur : James Liliou, pour GAME CENTER.**************
+		**************************** Version : Python ********************************
+		******************************************************************************
+
+
+		Mise à jour du 22/04/2022
+
+
+	************************ Quoi de neuf? ***********************************
+	comment = True dans vos paramètres ch permet de rencoyer également les commentaires.
+	Cela est utile par exemple quand vous avez # dans la valeur à récupérer.
+	ch_data("Couleur_hex", "test.ch", comment=True) #Pour renvoyer une couleur hex #000000
+
+(refaire)
+	Utiliser des quotes peut résoudre de nombreux problèmes. les quotes sont prioritaires
+	aux commentaires.
+	ch_data('Chemin_fichier', 'test.ch') #Chemin_fichier : "C:/GC" marche nickel
